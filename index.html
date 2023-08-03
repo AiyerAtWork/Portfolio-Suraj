@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Portfolio website" />
+    <meta name="keywords" content="web design, html, css, js" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/about.css">
+    <link rel="stylesheet" href="./styles/components/work.css">
+    <link rel="stylesheet" href="./styles/components/contact.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles//components/mobile-hamburger.css">
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <title>Suraj's Portfolio</title>
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+    
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#work">Work</a>
+          </li>
+          <li class="header__line"></li>
+          <a class="header__link " href="#contact">Contact</a>          
+        </li>          
+        </ul>        
+      </nav>
+    </header>
+    <!--MOBILE NAVIGATION HAMBURGER  -->
+    <nav>
+      <div class="navbar">
+        <div class="hamburger-container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="menu-items">
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+              <li>
+                <a class="#contact" href="#">Contact</a>
+              </li>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- MOBILE NAVIGATION HAMBURGER END -->
+    <!-- MAIN  -->
+    
+    <main>
+
+      <!-- HERO SECTION -->
+      <section class="hero container">
+        <img class="hero__img" src="./asset/profile.png" alt="Profile picture" />
+        <h2 class="hero__subtitle">Hi, I'm <strong>Suraj Aiyer</strong> 👋</h2>
+        
+        <h1 class="hero__title">
+          FRONT-END <br />
+          WEB DEVELOPER!
+        </h1>
+        <p class="hero__description">
+          A passionate <strong>Frontend </strong> web
+          developer and <strong>UI/UX</strong>
+          enthusiast specialized in building stunning pixel-perfect interactive
+          websites/applications.
+        </p>
+        <a class="hero__btn btn" href="#">Reach out</a>
+      </section>
+      <!-- HERO SECTION END -->
+
+    <!-- ABOUT SECTION -->
+     
+      <section id="about" class="about container section">
+        <div class="about__content">
+            <h2 class="about__title">About</h2>
+
+            <p class="about__description">
+              Hey there! My name is <strong> SURAJ AIYER</strong> , I'm a
+              Frontend web developer
+              from Mumbai currently working in Chennai. 
+            </p>
+            <p class="about__description">
+              My mission is to craft seamless and visually stunning digital experiences that captivate users and leave a lasting impression.
+            </p>
+            <p class="about__description">
+              During the day i spend most of my time coding while during my free time I play <strong>MULTIPLAYER</strong> PC games with the boys , Work out and or watching strong!
+              <hr class="about__hr" />
+            
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list"><i class="fab fa-html5 "></i> HTML</li>
+              <li class="about__list"><i class="fab fa-css3 "></i> CSS</li>
+
+              <li class="about__list"><i class="fab fa-js "></i> JavaScript</li>
+            
+              <li class="about__list"> <i class="fab fa-bootstrap fa-square-js"></i> Bootstrap</li>
+              <li class="about__list"> <i class="fab fa-php fa-square-js"></i>Php</li>              
+              <li class="about__list"><i class="fab fa-java fa-square-js"></i> Java</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapper">
+          <img
+            class="about__img lazy loading"
+            src="./asset/about.jpg"
+            data-src="/about.jpg"
+            alt="Profile picture"
+          />
+          <img
+            class="about__img about__img-mobile"
+            src="./asset/about-mobile.jpg"
+            data-src="/about.jpg"
+            alt="Profile picture"
+          />
+        </div>
+      </section>
+      <!-- ABOUT SECTION END -->
+
+      <!-- WORK SECTION -->
+      <section id="work" class="work container section">
+        <div class="work__wrapper">
+          <h2 class="work__title">Project - DIGIWINX</h2>          
+          <p class="work__description">
+            Digiwinx is services service based  organizations that creates, manages, and delivers information, next to assisting with other business functions. Services include consulting, software development, systems integration.
+          </p>
+        </div>
+        
+        <div class="work__img-container">
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project/header.jpg"
+             
+            />
+          </div>
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project/services.jpg"
+              
+            />
+          </div>
+          
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project/career.jpg"
+             
+            />
+          </div>
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project/contact us.jpg"
+             
+            />
+          </div>
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project/enquiry form.jpg"
+              
+            />
+          </div>
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project/Dashboard/admin login.jpg"
+              
+            />
+          </div>
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project//Dashboard/admin panel.jpg"
+             
+            />
+          </div>
+          <div class="work__img-wrapper">
+            <img
+              class="lazy loading"
+              src="./asset/Project//Dashboard/admin-edit.jpg"
+             
+            />
+          </div>
+          
+        </div>
+      </section>
+      <!-- WORK SECTION END -->
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Touch</h2>
+        <p class="contact__description">
+          Whether you are starting a project, have business inquiries or just
+          want to say hi, my inbox is always open so feel free to reach out and
+          I will get back to you as soon as possible.
+        </p>
+        <a
+          class="contact__btn btn"
+          href="mailto:slayingthedragon.io@gmail.com"
+          target="_blank"
+          >Reach Out</a
+        >
+      </section>
+      <!-- CONTACT SECTION END -->
+    </main>
+    <!-- MAIN END -->
+
+    <footer class="footer section container">
+      <aside id="#sidebar">
+        <div class="wrapper">
+          <a href="https://www.facebook.com/" class="icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/" class="icon" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/" class="icon" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/" class="icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/" class="icon" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.discord.com/" class="icon" target="_blank"><i class="fab fa-discord fa-beat"></i></a>
+   
+       </aside>
+    </footer>
+      <div class="white-space"></div>
+      </main>   
+      <script src="https://kit.fontawesome.com/2daeff28dd.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+
+  </body>
+</html>
